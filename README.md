@@ -1,4 +1,9 @@
 # Queltemps
+Following Angular Projects
+
+This app is a PWA weather app build with angular and hosted on firebase.
+
+We are using Angular service workers, HTTP client, Material components,
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
