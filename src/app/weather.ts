@@ -1,5 +1,5 @@
 export interface Weather {
-  weather :  WeatherInfo[],
+  weather: WeatherInfo[],
   main: {
     temp: number;
     pressure: number;
@@ -9,10 +9,9 @@ export interface Weather {
     speed: number;
   };
   sys: {
-    country: string;
+    country: string
   };
   name: string;
-
 }
 
 interface WeatherInfo {
