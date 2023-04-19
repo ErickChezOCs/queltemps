@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "queltemps:build:production",
+            "firebaseProject": "queltemps-aa65e",
+            "firebaseHostingSite": "queltemps-aa65e"
+          }
         }
       }
     }

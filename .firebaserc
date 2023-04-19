@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "queltemps-aa65e": {
+      "hosting": {
+        "queltemps": [
+          "queltemps-aa65e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "queltemps-aa65e"
+  }
+}
