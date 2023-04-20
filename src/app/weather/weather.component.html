@@ -2,6 +2,7 @@
   <input matInput placeholder="Entrez la ville" #cityCtrl (keydown.enter)="search(cityCtrl.value)">
   <mat-icon matSuffix (click)="search(cityCtrl.value)">search</mat-icon>
 </mat-form-field>
+
 <mat-card *ngIf="weather">
   <mat-card-header>
     <mat-card-title>{{weather.name}}, {{weather.sys.country}}</mat-card-title>

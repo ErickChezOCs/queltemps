@@ -3,9 +3,15 @@ Following Angular Projects
 
 This app is a PWA weather app build with angular and hosted on firebase.
 
-We are using Angular service workers, HTTP client, Material components,
+We are using Angular service workers, HTTP client, Material components.
 
 Hosting URL: https://queltemps-aa65e.web.app
+
+We didn't try rebuilding from this repo and we removed the environments directory
+
+holding the APIkeys(for dev and prod), it's a bad practice to have any keys in github repo.
+
+Having that in mind the app can be build and hosted as we did.
 
 
 

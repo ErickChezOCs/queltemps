@@ -14,7 +14,10 @@ export class WeatherComponent implements OnInit {
   constructor(private weatherService: WeatherService) { }
 
   ngOnInit(): void {
+
   }
+
+
 
   search(city: string) {
     this.weatherService.getWeather(city).subscribe(weather => this.weather = weather);
